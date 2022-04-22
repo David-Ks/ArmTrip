@@ -1,0 +1,81 @@
+section.main-section {
+	min-height: 15vh;
+	height: unset;
+}
+
+section.tour-card {
+	min-height: 50vh;
+}
+
+div.settings {
+	margin-top: 0px;
+}
+
+div.tour-card {
+	margin-top: 40px;
+	padding: 4%;
+	position: relative;
+}
+
+div.tour-card-img {
+	width: 800px;
+	height: 450px;
+	position: relative;
+}
+
+img.tour-card-img {
+	transition-duration: 0.2s;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: rotate(0deg);
+	position: absolute;
+	border-radius: 0 0 20px 20px;
+}
+
+div.tour-card-text {
+	transition-duration: 0.3s;
+	background-color: #e2e2e2;
+	width: 50%;
+	border-radius: 0 10px 10px 0;
+	padding: 20px;
+	position: absolute;
+	left: 760px;
+	top: 60px;
+	min-height: 250px;
+}
+
+div.tour-card-title {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+img.tour-card-gid {
+	width: 170px;
+	height: 240px;
+	position: absolute;
+	left: 760px;
+	top: 180px;
+	z-index: 3;
+	border-radius: 0 0 20px 0;
+	object-fit: cover;
+	transform: rotate(0deg);
+	transition-duration: 0.4s;
+}
+
+div.tour-card-btn {
+	text-align: right;
+}
+
+div.tour-card:hover div.tour-card-img img.tour-card-img {
+	transform: rotate(3deg);
+}
+
+div.tour-card:hover div.tour-card-text {
+	left: 800px;
+}
+
+div.tour-card:hover img.tour-card-gid {
+	top: 200px;
+	left: 790px;
+}

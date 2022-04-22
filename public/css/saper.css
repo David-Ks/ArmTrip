@@ -1,0 +1,175 @@
+div.main-div {
+	text-align: center;
+	min-width: 40%;
+}
+
+div.sudoku-div {
+	background-color: #e2e2e2;
+	min-width: 110vw;
+	padding-top: 150px;
+	min-height: 100vh;
+	display: flex;
+	position: relative;
+	z-index: 2;
+	justify-content: center;
+	justify-items: center;
+}
+
+div.second-div {
+	width: 200px;
+	height: 600px;
+}
+
+div.block {
+	border: 1px solid black;
+	width: 4vw;
+	height: 4vw;
+}
+
+div.n-block {
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	font-size: 70px;
+}
+
+div.fo-flag {
+	background-color: white;
+	transition-duration: 0.1s;
+	box-shadow: 0px 0px 1px 5px #212529 inset;
+}
+
+div.fo-flag:hover {
+	transform: scale(1.1);
+}
+
+div.fo-flag-active {
+	box-shadow: 0px 0px 0px 0px #212529 inset;
+}
+
+div.close {
+	background-color: #212529;
+	box-shadow: 0px 0px 1px 5px #e2e2e2 inset;
+}
+
+div.close:hover {
+	background-color: #e2e2e2;
+	box-shadow: 0px 0px 1px 5px #212529 inset;
+}
+
+div.open {
+	background-color: white;
+	box-shadow: 0px 0px 7px 5px #212529 inset;
+}
+
+div.d-flex {
+	display: flex;
+	width: 100%;
+}
+
+span.text-sz {
+	font-size: 50px;
+}
+
+div.test-div {
+	border: 2px solid black;
+}
+
+div.game-over {
+	background-color: #e2e2e2 !important;
+}
+
+@media only screen and (max-width: 680px) {
+	div.sudoku-div {
+		flex-wrap: wrap;
+	}
+
+	div.main-div {
+		text-align: center;
+		min-width: 90%;
+	}
+
+	span.text-sz {
+		font-size: 30px;
+	}
+
+	div.second-div {
+		width: 90%;
+		height: 250px;
+	}
+
+	div.block {
+		width: 8vw;
+		height: 8vw;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	div.block {
+		width: 5vw;
+		height: 5vw;
+	}
+
+	span.text-sz {
+		font-size: 38px;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	div.block {
+		width: 5vw;
+		height: 5vw;
+	}
+}
+
+@media only screen and (max-width: 1020px) {
+	div.block {
+		width: 6vw;
+		height: 6vw;
+	}
+
+	span.text-sz {
+		font-size: 38px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	div.block {
+		width: 7vw;
+		height: 7vw;
+	}
+
+	div.n-block {
+		width: 80px;
+		height: 80px;
+		font-size: 50px;
+	}
+
+	span.text-sz {
+		font-size: 36px;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	div.second-div {
+		display: flex;
+		justify-content: center;
+	}
+
+	div.sudoku-div {
+		padding-top: 100px;
+	}
+
+	div.block {
+		width: 10vw;
+		height: 10vw;
+	}
+
+	span.text-sz {
+		font-size: 28px;
+	}
+
+	div.open {
+		box-shadow: 0px 0px 7px 2px #212529 inset;
+	}
+}

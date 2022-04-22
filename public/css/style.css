@@ -1,0 +1,668 @@
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+	background-color: #212529 !important;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif !important;
+	position: relative;
+}
+
+nav.my-bg-color {
+	background-color: #e2e2e2;
+}
+
+section.main-section {
+	margin-top: 82px; /*NOT FOR PHONE*/
+	height: 90vh;
+}
+
+span.big-text {
+	margin-left: 0;
+	font-size: 800%;
+	color: white;
+}
+
+span.small-text {
+	font-size: 200%;
+}
+
+span.m-text {
+	color: #e2e2e2;
+	font-size: 2em;
+	text-shadow: 1px 1px 4px #8c8c8c;
+	font-weight: bold;
+}
+
+div.animation-main {
+	margin-left: 0;
+	animation-name: fadeInLeft;
+	animation-duration: 3s;
+	white-space: nowrap;
+}
+
+div.not-main-anim {
+	animation-name: fadeInLeft-2;
+	animation-duration: 3s;
+	white-space: nowrap;
+}
+
+div.animation-second {
+	margin-left: 0;
+	animation-name: fadeInLeft;
+	animation-duration: 5s;
+	white-space: nowrap;
+}
+
+div.animation-third {
+	margin-left: 0;
+	animation-name: fadeInLeft;
+	animation-duration: 7s;
+	white-space: nowrap;
+}
+
+span.m-text-im {
+	font-size: 1.2rem;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+@keyframes fadeInLeft {
+	from {margin-left: 200%;}
+	to {margin-left: 0;}
+}
+
+@keyframes fadeInLeft-2 {
+	from {margin-left: 200%;}
+	to {margin-left: -100px;}
+}
+
+@keyframes fadeInLeftImgSlide {
+	from {
+		margin-left: 100%;
+		transform: skew(4deg);
+	}
+	to {
+		margin-left: 0;
+		transform: skew(-4deg);
+	}
+}
+
+@keyframes fadeInLeftForImg {
+	from {margin: 400px auto;}
+	to {margin: 0 auto;
+		margin-top: -7%;}
+}
+
+hr.alg {
+	margin-left: 25%;
+}
+
+section.first-stage {
+	z-index: 2;
+	color: #212529;
+	width: 60%;
+}
+
+div.buffer {
+	height: 80px;
+}
+
+section.bg-border {
+	border: 2px solid white;
+	margin: 0 270px 0 200px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 15px 1px white;
+	background-color: #e2e2e2;
+}
+
+div.about-us {
+	text-align: left;
+	padding: 20px 90px 30px 60px;
+}
+
+span.some-text {
+	font-size: 1.6rem;
+}
+
+div.main-gif-1 {
+	position: absolute;
+	margin-left: 100%;
+	top: 30%;
+	left: 70%;
+	transform: rotate(180deg);
+	display: inline-block;
+	background-image: url("https://media.giphy.com/media/QaQWUg6Z0pDKF44ARn/giphy.gif");
+	background-size: 500 500;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 500px;
+	transition-duration: 1s;
+}
+
+div.fadeIn-Img {
+	animation-name: fadeInLeftForImg;
+}
+
+div.arm-img-main {
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	width: 95%;
+	margin-top: -7%;
+	height: 630px;
+	box-shadow: inset 0 0 300px #212529;
+	animation-duration: 7s;
+	animation-iteration-count: 1;
+	z-index: -1;
+	transform: skew(2deg, 1deg);
+	position: relative;
+}
+
+div.img-second-div {
+	margin-top: 10px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 645px 430px;
+	width: 645px;
+	height: 430px;
+	margin-left: 100%;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	box-shadow: inset 0 0 300px #212529;
+	transition-duration: 1s;
+}
+
+div.splide__arrows { 
+	display:none;
+}
+
+div.marz-div {
+	box-shadow: inset 0 0 100px #212529;
+	width: 16vw;
+	height: 595px;
+	transition-duration: 2s;
+}
+
+div.yerevan-bg {background-image: url('https://i.pinimg.com/originals/3f/f7/fa/3ff7fac581cf11d6856cc463fcc39f7c.jpg');}
+div.shirak-bg {background-image: url("https://absolutearmenia.com/wp-content/uploads/2021/09/Town_of_Maralik.jpeg");}
+div.lori-bg {background-image: url('http://eltravelclub.am/media/k2/items/cache/48ee1e8a0a8f50dce4f8cb9ab418e211_XL.jpg');}
+div.tavush-bg {background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fd/Tavush_village_2.jpg');}
+div.aragacotn-bg {background-image: url('https://live.staticflickr.com/65535/49747087523_68b865c4f5_b.jpg');}
+div.armavir-bg {background-image: url('https://absolutearmenia.com/wp-content/uploads/2019/05/Things-to-do-in-Etchmiadzin-Armenia-Vagharshapat-1.jpg');}
+div.kotayk-bg {background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Garni_Temple_02.JPG/640px-Garni_Temple_02.JPG');}
+div.ararat-bg {background-image: url('https://www.wideworldtrips.com/wp-content/uploads/2020/07/artashat-tourist-attractions.jpg');}
+div.gegarkhuinik-bg {background-image: url('https://www.wideworldtrips.com/wp-content/uploads/2020/05/things-to-do-in-gegharkunik.jpg');}
+div.vaiocdzor-bg {background-image: url('https://landofnoah.com/uploads/0000/1/2020/09/03/vayots-dzor-province-of-armenia-1.jpg');}
+div.syunik-bg {background-image: url('https://www.wideworldtrips.com/wp-content/uploads/2020/05/places-to-visit-in-syunik.jpg');}
+div.calendar-bg { background-image: url('https://www.kindpng.com/picc/m/107-1079118_calendar-png-icon-calendar-icon-png-transparent-png.png');}
+div.price-bg { background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIarfkfemRyV5m0Az-HYxocRcgDk2JZ7bnskycdtKzO83n1F5oE8MHgla_AYikT5DU95Q&usqp=CAU');}
+div.discount-bg {background-image: url('http://cdn.onlinewebfonts.com/svg/img_552316.png');}
+div.convenience-bg {background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEK86cTS6oREzULs503c_rxwMJ24GgbSR5jQIbey14sZwEtQLxYKtOy_onrycxJZYo6no&usqp=CAU');}
+div.destinations-bg {background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHGRiHONDO4FVwQDCoxdKL95wgZdLQGEth0JCrL1hpXoY5GnOFp6FxvS5SzoV7ikjsmRg&usqp=CAU');}
+div.cooperation-bg {background-image: url('https://www.kindpng.com/picc/m/158-1587071_handshake-002-clip-arts-shake-hand-icon-png.png');}
+div.other-bg-1 {background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Aragats_mountain%2C_Aragatsotn%2C_Armenia.jpg/1200px-Aragats_mountain%2C_Aragatsotn%2C_Armenia.jpg');}
+div.other-bg-2 {background-image: url('https://phoenixtour.org/wp-content/uploads/2021/03/00-MOUNT-ARAGARTS-cover-photo.jpg');}
+div.other-bg-3 {background-image: url('https://statemag.state.gov/wp-content/uploads/2020/03/0420POM-14-1024x518.jpg');}
+
+img.obj-cover {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+div.features-opt {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+div.marz-div:hover {
+	width: 30vw;
+	margin-left: -5.9vw;
+	cursor: pointer;
+}
+
+section.second-stage {
+	background-color: rgba(255, 255, 255, 0.1);
+	transform: rotate(4deg);
+	width: 103vw;
+	margin-left: -2vw;
+}
+
+div.card-opt {
+	height: 300px;
+	margin: 0 30px 30px 0;
+	transition-duration: 1s;
+	border-radius: 20px;
+	box-shadow: inset 0 0 20px #212529;
+}
+
+div.card-opt:hover {
+	transform: skew(-1deg, -1deg);
+	box-shadow: inset 0 0 0px #212529;
+	border-radius: 40px;
+
+}
+
+p.p-center {
+	margin-top: 20%;
+}
+
+div.ginfo-div {
+	box-shadow: 4px 4px 20px rgba(33, 37, 41, 1);
+	width: 52vw;
+	margin-left: 40%;
+	background-color: rgba(33, 37, 41, 1);
+	padding: 50px;
+	border-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer.foot-footer {
+	background-color: #e2e2e2;
+	padding: 40px 0 10px 0;
+}
+
+a.last-link {
+	text-decoration: none;
+}
+
+span.region-span {
+	display: inline-block;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-top: 20px;
+	border-bottom: 2px solid white;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+div.big-card {
+	height: 70vh;
+	text-align: center;
+	background-color: #e2e2e2;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px #e6e6e6;
+	margin: 0 auto;
+	animation-name: fadeInLeftForImg;
+	animation-iteration-count: initial;
+	margin-top: 40px;
+	transition-duration: 1s;
+}
+
+div.b-card-hov-1:hover {
+	transform: skew(3deg, 3deg);
+}
+
+div.b-card-hov-2:hover {
+	transform: skew(-3deg, -3deg);
+}
+
+div.anim-dur-1 {
+	animation-duration: 3s;
+}
+
+div.anim-dur-2 {
+	animation-duration: 4s;
+}
+
+div.anim-dur-3 {
+	animation-duration: 5s;
+}
+
+div.card-img {
+	position: absolute;
+	margin-top: 10%;
+	background-size: 50vw 50vh;
+	width: 50vw;
+	height: 50vh;
+	background-repeat: no-repeat;
+	box-shadow: inset 0 0 300px #212529;
+	transform: rotate(4deg);
+	margin-left: -100px;
+	z-index: -1;
+}
+
+div.card-img-l {
+	margin-left: -140px;
+	transform: rotate(-4deg);
+}
+
+div.my-card-header {
+	margin-top: 20px;
+	font-size: 2rem;
+}
+
+div.my-card-body {
+	vertical-align: middle;
+	font-size: 1.2rem;
+	padding: 40px;
+}
+
+iframe.map {
+	box-shadow: 0px 0px 50px 7px black;
+	width: 90%;
+	height: 500px;
+	border-radius: 10px;
+}
+
+*.flex {
+	display: flex;
+}
+
+div.last-img {
+	position: absolute;
+	top: 45vh;
+	left: 2.4%;
+}
+
+div.ask-form {
+	padding: 20px;
+	border-radius: 10px;
+	width: 90%;
+	height: 500px;
+	text-align: left !important;
+}
+
+div.footer-header {
+	padding: 10%;
+}
+
+textarea.resize-off {
+	resize: none;
+}
+
+div.form-box {
+	background-color: #212529;
+	padding: 20px 0px;
+	min-height: 590px;
+}
+
+*.h-60 {
+	height: 60%;
+}
+
+a.ginfo {
+	color: #212529;
+	width: 48%;
+	text-decoration: none;
+}
+
+a.ginfo:hover, a.ginfo:focus {
+	text-decoration: none;
+	color: #212529;
+}
+
+div.info-card {
+	height: 300px;
+	background-color: white;
+	margin: 4px;
+	border-radius: 5px;
+}
+
+section.ginfo-section {
+	height: 100vh;
+	position: relative;
+}
+
+nav.nav-pad {
+	padding: 20px;
+}
+
+i.info-card-icon {
+	font-size: 130px;
+	display: block;
+}
+
+span.info-card-text {
+	margin-top: 20px;
+	font-size: 30px;
+	display: block;
+}
+
+h3.info-card-title {
+	font-size: 40px;
+	word-wrap:break-word;
+}
+
+div.tours {
+	min-height: 100vh;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+div.price-nav {
+	margin-top: 96px;
+	background-color: #9b9d9f;
+}
+
+a.money {
+	margin-right: 30px;
+}
+
+form.tours {
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+span.form-marz {
+	font-size: 25px;
+}
+
+button.view-btn {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+div.settings {
+	background-color: #e2e2e2;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 140px;
+	position: relative;
+	width: 92%;
+	display: inline-flex;
+	justify-content: center;
+}
+
+div.settings h2 {
+	font-size: 30px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+div.settings button {
+	position: absolute;
+	right: 20px;
+}
+
+div.pagination {
+	height: 200px;
+}
+
+div.descrip {
+	padding: 30px;
+	min-height: 100vh;
+	margin-top: 97px;
+	margin-bottom: 1px;
+	background-color: #e2e2e2;
+}
+
+div.descrip-tour {
+	position: relative;
+}
+
+div.descrip-title {
+	font-size: 40px;
+	margin-left: 20%;
+}
+
+div.descrip-body {
+	width: 50%;
+	min-height: 50vh;
+	font-size: 30px;
+	background-color: #212529;
+	border-radius: 20px 0 0 20px;
+	padding: 40px;
+	color: white;
+}
+
+div.descrip-about {
+	font-size: 30px;
+	position: relative;
+	margin-bottom: 60px;
+}
+
+div.buy-btn {
+	position: absolute;
+	top: 100px;
+	left: 400px;
+}
+
+img.descrip-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+div.descrip-img {
+	position: absolute;
+	top: 0;
+	right: 40px;
+	width: 40%;
+	height: 500px;
+	transform: rotate(-2deg);
+}
+
+div.descrip-gid-img {
+	position: absolute;
+	top: 450px;
+	right: 35%;
+	width: 200px;
+	height: 300px;
+	z-index: 2;
+}
+
+button.buy-btn {
+	border: none;
+	background-color: #e2e2e2;
+	font-size: 50px;
+	transition-duration: 0.1s;
+}
+
+button.buy-btn:hover {
+	border-bottom: 5px solid #212529;
+}
+
+li.selected-scale {
+	transform: scale(1.2);
+	z-index: 99;
+	border-radius: 10px;
+}
+
+*.b-radius {
+	border-radius: 5px;
+}
+
+section.review {
+	min-height: 700px;
+	text-align: center;
+	margin-top: 96px;
+	padding: 0 10%;
+}
+
+section.for-review {
+	height: 30vh;
+}
+
+form.review {
+	width: 100%;
+	text-align: left;
+	margin-top: 20px;
+	display: inline-block;
+	background-color: #e2e2e2;
+	padding: 20px;
+	border-radius: 0 0 20px 20px;
+	min-height: 200px;
+}
+
+a.selected {
+	transform: scale(1.2);
+	z-index: 4;
+	border-radius: 5px;
+	color: white !important;
+	background-color: #0d6efd;
+}
+
+a.selected:hover {
+	background-color: #5a97f1;
+	z-index: 5;
+}
+
+*.mark:hover {
+	cursor: pointer;
+}
+
+div.toast {
+	display: block!important;
+	width: 100%;
+}
+
+div.toast-body {
+	text-align: left;
+	padding: 20px;
+}
+
+div.toast-container {
+	width: 100%;
+	position: relative !important;
+	padding: 1rem 1rem 0 1rem !important;
+}
+
+div.rait-box {
+	margin-left: 10px;
+	padding: 2px 4px 2px 4px;
+	color: white;
+	border-radius: 5px;
+}
+
+strong.me-auto {
+	padding: 5px;
+	display: flex;
+}
+
+form.review-del {
+	margin-left: 5px;
+}
+
+div.review-img {
+	width: 100%;
+	height: 700px;
+}
+
+img.review-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+div.balance {
+	min-height: 60vh;
+	font-size: 40px;
+	text-align: center;
+}
+
+span.error-balance {
+	color: white;
+	margin-top: 25%;
+	display: block;
+}
+
+div.my-tickets {
+	padding: 20px;
+}

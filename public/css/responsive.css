@@ -1,0 +1,344 @@
+@media all and (max-width: 1620px) {
+	div.tour-card-text {
+		width: 56%;
+		left: 40%;
+	}
+
+	img.tour-card-gid {
+		top: 190px;
+	}
+
+	div.tour-card:hover div.tour-card-text {
+		left: 42%;
+	}
+}
+
+@media only screen and (max-width: 1440px) {
+	section.first-stage {
+		width: 80%;
+		margin-left: 140px;
+	}
+
+	img.tour-card-gid {
+		top: 220px;
+	}
+
+	div.img-second-div {
+		width: 530px;
+	}
+
+	div.last-img {
+		top: 30vh;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	div.descrip-body {
+		width: 40%;
+		transform: rotate(0deg);
+		margin-bottom: 20px;
+	}
+
+	div.descrip-img {
+		top: 50px;
+	}
+
+	div.marz-div {
+		width: 24vw;
+	}
+
+	div.marz-div:hover {
+		width: 36vw;
+	}
+
+	div.ginfo-div {
+		width: 60vw;
+		margin-left: 35%;
+	}
+}
+
+@media only screen and (max-width: 1060px) {
+	section.first-stage {
+		width: 90%;
+		margin-left: 6%;
+	}
+
+	img.tour-card-gid {
+		top: 280px;
+		left: 70%;
+	}
+
+	div.tour-card:hover img.tour-card-gid {
+		left: 73%;
+		top: 300px;
+	}
+
+	div.info-card {
+		height: 300px;
+	}
+
+	div.no-flex-for-row {
+		display: block;
+	}
+
+	div.about-us {
+		width: 100%;
+	}
+
+	div.img-second-div {
+		position: relative;
+		display: inline-block;
+		margin-left: 0px;
+		background-image: url('https://cdn.tourradar.com/s3/tour/645x430/71702_169528d6.jpg');
+		transform: skew(-4deg);
+	}
+
+
+	h3.info-card-title {
+		font-size: 35px;
+	}
+
+	span.info-card-text {
+		font-size: 25px;
+	}
+}
+
+@media all and (max-width: 840px) {
+	div.ginfo-div {
+		width: 70vw;
+		margin-left: 24%;
+	}
+
+	ul.pagination-for-tours {
+		margin-top: 125px !important;
+	}
+
+	img.tour-card-gid {
+		top: 320px;
+		left: 60%;
+	}
+
+	div.tour-card:hover img.tour-card-gid {
+		left: 63%;
+		top: 340px;
+	}
+
+	div.tour-card-text {
+		width: 66%;
+		left: 30%;
+	}
+
+	div.tour-card:hover div.tour-card-text {
+		left: 32%;
+	}
+
+	div.tour-card-img {
+		width: 90%;
+	}
+
+	div.descrip-img {
+		width: 90%;
+		position: unset;
+	}
+
+	div.descrip-gid-img {
+		width: 33%;
+		height: 350px;
+		bottom: 70px;
+		top: unset;
+		right: 0;
+	}
+
+	div.descrip-body {
+		width: 100%;
+		min-height: 30vh;
+		margin-top: 20px;
+		font-size: 27px;
+		transform: rotate(3deg);
+	}
+}
+
+@media all and (max-width: 767px) {
+	body {
+		padding: 0px !important;
+	}
+}
+
+@media all and (max-width: 760px) {
+	div.ginfo-div {
+		width: 100vw;
+		margin-left: 0%;
+	}
+
+	section.second-stage {
+		width: 106vw;
+		margin-left: -3vw;
+	}
+
+	div.about-us {
+		padding: 20px;
+	}
+
+	div.img-second-div {
+		width: 380px;
+		transform: skew(0deg);
+	}
+
+	div.marz-div {
+		width: 40vw;
+	}
+
+	div.marz-div:hover {
+		width: 50vw;
+	}
+
+	div.animation-main {
+		margin-top: 130px;
+	}
+
+	div.arm-img-main {
+		transform: skew(0deg);
+	}
+
+	div.ask-form {
+		margin: 0 auto;
+	}
+
+	div.send-btn {
+		text-align: center !important;
+	}
+
+	img.tour-card-gid {
+		display: none;
+	}
+}
+
+@media all and (max-width: 540px) {
+	div.buy-btn {
+		left: 200px;
+	}
+
+	section.review {
+		padding: 0 3%;
+	}
+
+	div.descrip-img {
+		width: 100%;
+		position: unset;
+	}
+
+	div.descrip-gid-img {
+		height: 270px;
+	}
+
+	section.second-stage {
+		margin-top: 60px;
+	}
+
+	section.ginfo-section {
+		margin-top: 40px;
+	}
+
+	div.info-card {
+		margin: 4px auto;
+	}
+
+	div.last-img {
+		display: none;
+	}
+
+	div.ginfo-div {
+		padding: 5px;
+	}
+
+	a.ginfo {
+		width: 49%;
+		margin: 2px;
+	}
+
+	body:last-child .buffer {
+		display: none;
+	}
+}
+
+@media all and (max-width: 460px) {
+	div.descrip-body {
+		transform: rotate(0deg);
+		font-size: 20px;
+	}
+
+	section.for-review {
+		height: 5vh;
+		margin-top: 0px !important;
+		font-size: 10px;
+	}
+
+	section.main-section {
+		margin-top: 300px;
+	}
+
+	a.ginfo {
+		width: 46%;
+		margin: 0 auto;
+	}
+
+	div.arm-img-main {
+		width: 100%;
+		transform: skew(0deg);
+	}
+
+	div.img-second-div {
+		transform: skew(0deg);
+		width: 100%;
+	}
+
+	section.second-stage {
+		width: 100vw;
+		margin-left: 0px;
+		margin-top: 40px;
+		transform: skew(0deg);
+	}
+
+	span.m-text {
+		font-size: 1.7em;
+	}
+
+	span.big-text {
+		font-size: 600%;
+	}
+
+	section.ginfo-section {
+		height: 92vh;
+		margin-top: 30px;
+	}
+
+	div.tour-card {
+		margin-top: 170px;
+	}
+}
+
+@media all and (max-width: 380px) {
+	div.card-group .card {
+		margin-right: 0;
+	}
+	
+	h3.info-card-title {
+		font-size: 30px;
+	}
+
+	span.info-card-text {
+		font-size: 20px;
+	}
+
+	div.tour-card-text {
+		word-wrap: break-word;
+	}
+}
+
+@media all and (max-width: 280px) {
+	section.for-review {
+		height: 6vh;
+		margin-top: 0px !important;
+		font-size: 8px;
+	}
+}
